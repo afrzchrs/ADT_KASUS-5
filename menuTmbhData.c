@@ -17,15 +17,12 @@ void subMenuTmbhData(KotaElement k[], int *jumlahKota) {
                 system("cls");
                 tambahKota(k, jumlahKota); 
                 break;
-
-			case 2:
-			    system("cls");
-			    tambahNamaKeKota(k, *jumlahKota);
-			    break;
-			    
+	    case 2:
+		system("cls");
+		tambahNamaKeKota(k, *jumlahKota);
+		break;	    
             case 3:
                 return; 
-
             default:
                 printf("Pilihan tidak valid!\n");
         }
