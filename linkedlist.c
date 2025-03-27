@@ -87,7 +87,7 @@ void Del_After(address pBef, infotype *X) {
 
 void DelByValue(address *p, infotype X) {
     if (*p == NULL) return;
-    if ((*p)->info == X) {
+    if (strcmp((*p)->info, X) == 0) {
         address temp = *p;
         *p = (*p)->next;
         free(temp);
@@ -153,4 +153,3 @@ address BalikList(address p) {
     }
     return prev;
 }
-
