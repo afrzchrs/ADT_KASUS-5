@@ -18,9 +18,9 @@ void subMenuHpsData(KotaElement k[], int *jumlahKota) {
                 hapusKota(k, jumlahKota); 
                 break;
             case 2:
-			    system("cls");
-			    hapusNamaDariKota(k, *jumlahKota);
-			    break;
+		system("cls");
+		hapusNamaDariKota(k, *jumlahKota);
+		break;
             case 3:
                 return; 
             default:
