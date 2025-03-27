@@ -29,7 +29,7 @@ void MainMenu() {
                 break;
             case 3:
                 system("cls");
-				tampilkanSemuaData(k, jumlahKota);
+		tampilkanSemuaData(k, jumlahKota);
                 break;
             case 4:
                 return; 
